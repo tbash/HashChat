@@ -8,7 +8,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.network "private_network", ip: "33.33.33.56"
 
-  config.vm.synced_folder ".", "/srv/ReactChat"
+  config.vm.synced_folder ".", "/srv/HashChat"
 
   config.vm.provider "virtualbox" do |vb|
     vb.cpus = "2"
